@@ -4,9 +4,66 @@
 	box-sizing: border-box;
 }
 
+.clearfix::after{
+	content: "";
+	display:block;
+	clear: both;
+}
 
 .header{
 	width: 100%;
 	height: 50px;
 	background-color: red;
 }
+
+
+.main-visual{
+	width: 100%;
+	height: 500px;
+	background-color: orange;
+}
+
+
+.main{
+	width: 960px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+	.main-box-left{
+		width: 230px;
+		height: 1400px;
+		background-color: greenyellow;
+		float: left;
+	}
+	.main-box-center{
+		width: 500px;
+		height: 1400px;
+		background-color: green;
+		float: left;
+	}
+	.main-box-right{
+		width: 230px;
+		height: 1400px;
+		background-color: greenyellow;
+		float: left;
+	}
+
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
